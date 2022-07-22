@@ -1,0 +1,93 @@
+body {
+    background-color: #354654;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #394448;
+    max-width: fit-content;
+    border: 5px solid rgb(40, 35, 35);
+    border-radius: 10px;
+    position: absolute;
+    padding: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.simboloAritmetico {
+    background-color: #0f84eb;
+    height: 60px;
+    width: 70px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.Numeros {
+    background-color: rgba(255, 255, 255, 0.883);
+    color: rgb(0, 0, 0);
+    height: 60px;
+    width: 70px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.limpador {
+    background-color: rgb(216, 216, 216)e;
+    color: rgb(0, 0, 0);
+    height: 70px;
+    width: 218px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+#display {
+    background-color: #342c39;
+    height: 60px;
+    width: 272px;
+    border-radius: 1px;
+    font-weight: 900;
+    font-size: 40px;
+    padding: 10px;
+    text-align: right;
+}
+
+.Zero {
+    background-color: rgba(255, 255, 255, 0.883);
+    color: rgb(0, 0, 0);
+    height: 70px;
+    width: 145px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.Ponto {
+    background-color: rgba(255, 255, 255, 0.883);
+    color: rgb(0, 0, 0);
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.Igual {
+    background-color: #0f84eb;
+    color: #fff;
+    height: 69px;
+    width: 69px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.Dividir {
+    background-color: #0f84eb;
+    color: #fff;
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    font-size: 25px;
+}

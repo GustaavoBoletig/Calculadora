@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Icon.PNG" type="image/PNG">
+</head>
+
+<body>
+    <div class="container">
+        <div id="display">0</div>
+        <button onclick="limpar()" class="limpador">AC</button>
+        <button onclick="iniciarCalculo('/')" class="Dividir">/</button>
+
+        <div>
+            <button onclick="incluirNumero('1')" class="Numeros">1</button>
+            <button onclick="incluirNumero('2')" class="Numeros">2</button>
+            <button onclick="incluirNumero('3')" class="Numeros">3</button>
+            <button onclick="iniciarCalculo('x')" class="simboloAritmetico">x</button>
+        </div>
+
+        <div>
+            <button onclick="incluirNumero('4')" class="Numeros">4</button>
+            <button onclick="incluirNumero('5')" class="Numeros">5</button>
+            <button onclick="incluirNumero('6')" class="Numeros">6</button>
+            <button onclick="iniciarCalculo('-')" class="simboloAritmetico">-</button>
+        </div>
+
+        <div>
+            <button onclick="incluirNumero('7')" class="Numeros">7</button>
+            <button onclick="incluirNumero('8')" class="Numeros">8</button>
+            <button onclick="incluirNumero('9')" class="Numeros">9</button>
+            <button onclick="iniciarCalculo('+')" class="simboloAritmetico">+</button>
+        </div>
+
+        <div>
+            <button onclick="incluirNumero('0')" class="Zero">0</button>
+            <button onclick="incluirPonto()" class="Ponto">.</button>
+            <button onclick="finalizarCalculo()" class="Igual">=</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
